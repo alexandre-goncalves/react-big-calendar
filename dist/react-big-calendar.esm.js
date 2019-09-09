@@ -2567,9 +2567,6 @@ function TimeGridEvent(props) {
       width = style.width,
       xOffset = style.xOffset;
   var inner = [React.createElement("div", {
-    key: "1",
-    className: "rbc-event-label"
-  }, label), React.createElement("div", {
     key: "2",
     className: "rbc-event-content"
   }, Event ? React.createElement(Event, {
